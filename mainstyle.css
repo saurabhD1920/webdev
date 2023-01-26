@@ -1,0 +1,48 @@
+.body{
+  position: absolute;
+  
+}
+
+
+.container{
+  position: absolute;
+  margin-top: 25%;
+  margin-left: 40%;
+  background-color: salmon;
+  width:308px;
+  border-radius: 20px;
+  height:216px;
+  
+}
+
+.container button{
+    width: 100px;
+    height:70px;
+    border-radius: 20px;
+    border: none;
+    background-color: antiquewhite;
+}
+.container button:hover{
+  width: 100px;
+  height:70px;
+  border-radius: 30px;
+  border: none;
+  background-color: rgb(245, 214, 173);
+}
+#heading{
+  position: absolute;
+  margin-top: 20%;
+  margin-left: 43%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: orange;
+  user-select: none;
+}
+#player,#getpara{
+font-size: 50px;
+user-select: none;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#won{
+  font-size: 50px;
+  margin-left: 35%;
+}
